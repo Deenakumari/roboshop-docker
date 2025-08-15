@@ -1,5 +1,5 @@
 FROM node:20
-WOPRKDIR /opt/server
+WORKDIR /opt/server
 COPY * js .
 Copy package.json .
 RUN npm install
