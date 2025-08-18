@@ -49,7 +49,7 @@ services:
       CART_HOST: cart
       CART_PORT: 8080
       USER_HOST: user
-      USER_HOST: 8080
+      USER_PORT: 8080
       AMQP_user: roboshop
       AMQP_PASS: roboshop123
     depends_on:
